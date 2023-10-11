@@ -1,0 +1,10 @@
+page{
+  height: 100%;
+}
+.address-wrapper{
+  width: 100;
+  position: relative;
+  .nut-address-list-item__info-contact-default,.nut-button--danger {
+    background-color: #1677ff;
+  }
+}

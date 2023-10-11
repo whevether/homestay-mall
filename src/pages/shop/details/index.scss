@@ -1,0 +1,19 @@
+.index{
+  background: #F8F8F8;
+  padding-bottom: 60px;
+  .shop-title{
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .cooment-list{
+    padding: 15px;
+    background-color: #fff;
+  }
+  .right-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+}

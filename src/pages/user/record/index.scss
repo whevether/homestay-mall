@@ -1,0 +1,34 @@
+.nut-swipe{
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  .coll-img{
+    width: 100%;
+  }
+  .coll-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: flex-start;
+    padding: 5px 15px;
+    .time{
+      font-size: 12px;
+      opacity: .7;
+    }
+    .name{
+      font-size: 14px;
+    }
+  }
+  .coll-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 15px;
+    .nut-button{
+      margin-left: 5px;
+    }
+  }
+}

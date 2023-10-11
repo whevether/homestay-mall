@@ -1,0 +1,94 @@
+.index {
+  padding-bottom: 60px;
+  .cooment-list{
+    padding: 15px;
+    background-color: #fff;
+  }
+  .share-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    line-height: normal;
+    background: transparent;
+    padding: 0px;
+
+    &::after {
+      border: none;
+    }
+
+    &.b1 {
+      flex-direction: row;
+    }
+
+    .text {
+      font-size: 12px;
+    }
+  }
+
+  .room-info {
+    font-size: 12px;
+    opacity: .6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 5px;
+  }
+
+  .rule-info,
+  .check-notify {
+    padding: 10px 0px;
+    width: 100%;
+
+    .rule-item {
+      margin-bottom: 7px;
+    }
+
+    .check-title {
+      font-size: 14.5px;
+      color: #ec6941;
+      padding-left: 10px;
+      border-left: 2px solid #ddd;
+      margin: 5px 0px;
+    }
+
+    .rule-title {
+      font-size: 14.5px;
+      color: #2aac65;
+      padding-left: 10px;
+      border-left: 2px solid #ddd;
+      margin: 5px 0px;
+    }
+
+    .rule-text {
+      font-size: 12px;
+      opacity: .7;
+    }
+  }
+
+  .service {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px 0px;
+
+    .service-item {
+      width: 50%;
+      font-size: 14px;
+      padding-bottom: 5px;
+      box-sizing: border-box;
+      .text {
+        &:last-child {
+          opacity: .6;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}

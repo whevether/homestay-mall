@@ -1,0 +1,86 @@
+.order-details {
+  .product-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 5px;
+  }
+  .product-quantity {
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .num{
+      font-size: 14px;
+      margin-right: 3px;
+    }
+  }
+  .product-info {
+    .title {
+      font-size: 18px;
+      font-weight: 400;
+      color: #000;
+      margin-bottom: 5px;
+    }
+
+    .word {
+      padding: 5px 0px;
+      font-size: 14px;
+      color: #000;
+    }
+
+    .time {
+      padding: 5px 0px;
+      font-size: 14px;
+    }
+  }
+  .order-pay-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+
+    .order-desc {
+      font-size: 12.5px;
+      color: #999;
+    }
+
+    .paybtn-group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 6px 0px;
+    }
+
+    .btn {
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 12px;
+
+      &.btn-cancle-pay {
+        border: 1px solid #2baee9;
+      }
+
+      &.btn-pay {
+        background-color: #2baee9;
+        color: #fff;
+      }
+    }
+  }
+
+  .product-details {
+    text-align: center;
+    padding: 30px 15px 50px;
+    background-color: #fff;
+    font-size: 16px;
+  }
+}

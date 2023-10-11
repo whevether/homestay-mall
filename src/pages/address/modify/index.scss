@@ -1,0 +1,19 @@
+page{
+  height: 100%;
+}
+.address-wrapper{
+  width: 100;
+  position: relative;
+  .address-footer{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    left: 0px;
+    .nut-button--primary{
+      background: linear-gradient(315deg, rgb(73, 143, 242) 0%, rgb(73, 101, 242) 100%);;
+    }
+  }
+}

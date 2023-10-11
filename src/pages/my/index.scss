@@ -1,0 +1,227 @@
+.my-header{
+  background-color: #1677ff;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  // .avatar{
+  //   width: 50px;
+  //   height: 50px;
+  //   border: transparent;
+  //   border-radius: 50%;
+  // }
+  .setting{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 20;
+  }
+  .right{
+    margin-left: 15px;
+    flex: 1;
+  }
+  text{
+    font-size: 16px;
+  }
+  .member-level{
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .member-growth{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  view{
+    color: #fff;
+    &.rt-m{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 10px 0px;
+    }
+    .qt{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}
+.link-content{
+  padding: 15px;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 100%;
+  .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .link-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 47%;
+    padding: 15px 2px;
+    position: relative;
+    margin: 0px 3px;
+  }
+  .link-pic{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+  }
+  .link-price{
+    position: absolute;
+    right: -5px;
+    top: 5px;
+    padding: 3px 7px;
+    background-color: rgb(244, 67, 54);
+    color: #fff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 1px solid #fff;
+  }
+  .link-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+  }
+  .desc{
+    font-size: 12px;
+    opacity: .7;
+    margin-left: 5px;
+  }
+  .price{
+    color: rgb(244, 67, 54);
+    font-size: 12px;
+  }
+}
+.my-wrapper{
+  margin-bottom: 70px;
+  background: #F8F8F8;
+}
+.address-btn{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10;
+}
+.tuijuan{
+  padding: 15px;
+  background-color: #fff;
+}
+.my-card-wrapper{
+  height: 100%;
+}
+.integration-wrapper{
+  height: 100%;
+  .integration-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding: 20px 0px;
+    background-color: #1677ff;
+    color: #fff;
+    p{
+      margin: 5px 0;
+    }
+  }
+  .grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    .grid-item{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+      align-content: center;
+      padding: 10px 5px;
+      &:first-child{
+        border-right: 1px solid #ddd;
+      }
+      .text{
+        opacity: .65;
+        font-size: 16px;
+      }
+      .value{
+        color: #1677ff;
+        font-size: 18px;
+      }
+    }
+  }
+}
+.growth-wrapper{
+  height: 100%;
+  .growth-header{
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: #1677ff;
+    position: relative;
+    margin-bottom: 15px;
+    .step{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      flex-wrap: nowrap;
+      padding: 10px 0px;
+      .step-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+      }
+      span{
+        font-size: 12px;
+        padding: 5px 2px;
+      }
+    }
+    .growth-data{
+      font-size: 13.2px;
+      color: #fff;
+      background-color: #ffcc00;
+      position: absolute;
+      padding: 3.5px 10px;
+      bottom: -10px;
+      border-radius: 16px;
+    }
+  }
+  .group-disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+    pointer-events: none;
+    >div{
+      background-color: #ccc;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  }
+}

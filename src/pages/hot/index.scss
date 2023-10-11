@@ -1,0 +1,18 @@
+.index{
+  .nut-tabs__titles{
+    background: #fff;
+  }
+  .address-map{
+		font-size: 12px;
+		white-space: nowrap;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-left: 5px;
+	}
+	.nut-card__left{
+    img{
+      border-radius: 5px;
+    }
+  }
+}

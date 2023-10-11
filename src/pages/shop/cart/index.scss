@@ -1,0 +1,198 @@
+.index {
+  .mt-5 {
+    margin-top: 5px;
+  }
+  .nut-tabs{
+    height:100vh;
+    
+    .nut-tab-pane{
+      padding-bottom: 45px;
+      .product-item{
+        padding: 10px 0px;
+      }
+    }
+  }
+  .nut-popup__close-icon{
+    z-index: 999;
+  }
+  .header-clear{
+    padding: 10px 5px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+  }
+  .nut-card {
+    align-items: center;
+    .nut-card__left{
+      width: 110px;
+      height: 140px;
+    }
+    .nut-card__right{
+      padding: 0px 0px 8px 10px;
+    }
+  }
+
+  .nut-card__right__other {
+    .nut-tag--danger {
+      white-space: nowrap;
+    }
+  }
+
+  .nut-price {
+    white-space: nowrap;
+  }
+
+  .text {
+    font-size: 12px;
+    opacity: .7;
+    margin-right: 3px;
+  }
+
+  image {
+    border-radius: 6px;
+  }
+  .nut-card__right__shop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nut-card__right__shop__name {
+    width: 100%;
+  }
+
+  .customize {
+    margin-top: 3px;
+    width: 100%;
+  }
+  .search_prolist_attr {
+    margin: 3px 0 1px;
+    height: 15px;
+    overflow: hidden;
+
+    >text {
+      float: left;
+      padding: 0 5px;
+      border-radius: 1px;
+      font-size: 10px;
+      height: 15px;
+      line-height: 15px;
+      color: #999;
+      background-color: #f2f2f7;
+      margin-right: 5px;
+    }
+  }
+  .product-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .footer-cart {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #fff;
+    line-height: 50px;
+    height: 50px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 10;
+
+    .cart-price {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+      align-content: center;
+    }
+
+    .total-cart-promotion {
+      margin: 0px 5px;
+      line-height: 16px;
+    }
+
+    .cart {
+      flex: .7;
+      padding-left: 10px;
+      // text-align: center;
+      position: relative;
+      width: 100%;
+    }
+
+    .submit-btn {
+      flex: .3;
+      height: 100%;
+      height: 100%;
+    }
+
+    .nut-badge__content--sup {
+      width: 20px;
+      height: 20px;
+      padding: 2px;
+      top: 7px !important;
+      right: 7px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .cart-image {
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+      background-color: #1677ff;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      padding: 5px;
+      border-radius: 50%;
+
+      image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .total-cart-price {
+      color: #ff0000;
+      line-height: 16px;
+    }
+  }
+
+  .cart-list {
+    .cart-info{
+      height: 100%;
+      position: relative;
+    }
+    .nut-card__right__price__origin{
+      display: none;
+    }
+    .cart-title {
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
+      padding: 16px 0px;
+      position: sticky;
+      left: 0px;
+      top: 0px;
+      opacity: 1;
+      z-index: 999;
+      background: #fff;
+      color: rgba(0, 0, 0, .75);
+    }
+    .list{
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+  }
+}

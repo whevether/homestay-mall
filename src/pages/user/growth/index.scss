@@ -1,0 +1,43 @@
+.index{
+  .header{
+    padding: 20px 5px;
+    background: linear-gradient(315deg, rgb(73, 143, 242) 0%, rgb(73, 101, 242) 100%);
+    .nut-grid-item__content{
+      background-color: transparent;
+    }
+    .nut-grid-item__text{
+      color: #fff;
+    }
+    .active{
+      .nut-grid-item__text{
+        color: #ffcc00;
+      }
+    }
+    .data{
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+  .nut-grid-item__content{
+    border-color: #eee;
+  }
+  .group-disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+    pointer-events: none;
+    >view{
+      background-color: #ccc;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  }
+  .record-title{
+    font-size: 13px;
+    opacity: .85;
+  }
+  .record-text{
+    font-size: 11px;
+    opacity: .7;
+  }
+}

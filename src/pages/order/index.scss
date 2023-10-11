@@ -1,0 +1,24 @@
+.order-wrapper {
+  height: 100%;
+  background: #F8F8F8;
+  .nut-tab-pane {
+    padding: 0px;
+    background: transparent;
+  }
+
+  .nut-tabs__titles {
+    background-color: #fff;
+  }
+
+  .nut-searchbar {
+    padding: 10px;
+  }
+  .nut-menu{
+    .nut-menu-item{
+      top: 85px !important;
+    }
+  }
+  .order-list{
+    padding-bottom: 70px;
+  }
+}

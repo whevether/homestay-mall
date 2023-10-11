@@ -1,0 +1,56 @@
+.index{
+  .nut-cell{
+    border-bottom: 1px solid #eee;
+    &:last-child{
+      border-bottom: none;
+    }
+  }
+  .setting{
+    margin-top: 20px;
+  }
+  .logout{
+    margin: 12px;
+    .nut-button{
+      width: 100%;
+    }
+  }
+  .btn-avatar{
+    border: none;
+    overflow: hidden;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    width: 100%;
+    padding: 0px;
+    &::after{
+      border: none;
+    }
+  }
+  .avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .nickname{
+    font-size: 14px;
+    line-height: 21px;
+    height: 21px;
+    padding: 8px 0px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+  }
+  .phone{
+    border: none;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    padding-right: 5px;
+    margin-bottom: 16px;
+  }
+}

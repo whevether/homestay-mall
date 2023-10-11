@@ -1,0 +1,22 @@
+.category-details{
+  .wscnph{
+    width: 100%;
+    min-height: 600px;
+  }
+  .cooment-list{
+    padding: 15px;
+    background-color: #fff;
+  }
+  .cell-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .nut-steps{
+    padding: 15px;
+    .nut-step-main{
+      margin-bottom: 10px;
+    }
+  }
+}
